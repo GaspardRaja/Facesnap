@@ -3,5 +3,7 @@
     <img [src]="img" [alt]="title">
     <p>{{ descrip }}</p>
     <p>Mis en ligne le {{ dateCrea }}</p>
-    <p>{{ likes }} 🧡</p>
+    <p>
+        <button (click)="onAddLike">Like</button> {{ likes }} 🧡
+    </p>
 </div>
