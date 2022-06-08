@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
 			  	title: 'Three Rock Mountain',
 			  	descrip: 'Un endroit magnifique pour les randonnées.',
 			  	dateCrea: new Date(),
-			  	likes: 6,
+			  	likes: 0,
 				img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Three_Rock_Mountain_Southern_Tor.jpg/2880px-Three_Rock_Mountain_Southern_Tor.jpg',
 				isLiked: false,
 			  	location: 'la montagne'
